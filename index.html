@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>BG-GAMES</title> 
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav>
+            <h1>BG-GAMES</h1>
+            <input id="search" type="text" placeholder="Search Games ...">
+        </nav>
+        <header class="hero">
+            <h2>Play Games For Free</h2>
+            <p>Instant Play, No Downloads, Powered by GameMonetize Feed</p>
+        </header>
+        <section class="categories">
+            <button onclick="filterCategory('All')">ALL</button>
+            <button onclick="filterCategory('Puzzles')">Puzzles</button>
+            <button onclick="filterCategory('Soccer')">Soccer</button>
+            <button onclick="filterCategory('Arcade')">Arcade</button>
+            <button onclick="filterCategory('Shooting')">Shooting</button>
+            <button onclick="filterCategory('Racing')">Racing</button>
+        </section>
+        <main id="gameContainer" class="grid"></main>
+        <script src="js/app.js"></script>
+    </body>
+</html>
